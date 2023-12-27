@@ -1,0 +1,32 @@
+.header-top{
+     border-bottom: 1px solid #f2f2f2;
+}
+.header-socal-icons > i {
+     margin-left: 20px;
+     /* position: relative; */
+ }
+ 
+ .header-socal-icons > i::after {
+     content: '|';
+     position: absolute;
+     color: #ddd;
+     margin-left: 10px;
+ }
+ /* .header-socal-icons > i::before {
+     content: '';
+ } */
+ /* responsive */
+ @media screen and (max-width:392px){
+     .header-top-container{
+          display: flex;
+          gap: 10px;
+          flex-direction: column;
+     }
+     .header-top-container p{
+          font-size: 10px;
+     }
+     .header-top{
+          border-bottom: 0;
+     }
+ }
+ 

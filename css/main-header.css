@@ -1,0 +1,89 @@
+section.main-header {
+     width: 100%;
+     background: black;
+ }
+ .main-menu ul li a {
+      display: block;
+      position: relative;
+      color: #fff;
+      font-size: 16px;
+      padding: 25px 0;
+      font-weight: 600;
+  }
+  
+  .main-menu ul li {
+      display: inline-block;
+      margin-right: 35px;
+  }
+  
+  .main-menu ul li:hover a {
+      color: #ff3d4f;
+  }
+  
+  .main-menu ul li:hover a::after {
+      width: 100%;
+  }
+  
+  .main-menu ul li a::after {
+      position: absolute;
+      width: 0;
+      left: 0;
+      height: 5px;
+      content: '';
+      background: #ff3d4f;
+      bottom: 0;
+      transition: .3s;
+  }
+  /* search bar */
+  .search-bar > a > i {
+     color: #fff;
+     font-size: 16px;
+     display: flex;
+     justify-content: flex-end;
+     transition: .4s;
+ }
+ 
+ .search-bar > a > i:hover {
+     color: #ffb619;
+ }
+ .search_input {
+     width: 500px;
+     height: 100%;
+     position: absolute;
+     right: 0;
+     background: red;
+     top: 50%;
+     opacity: 0;
+     visibility: hidden;
+     transition: .5s;
+ }
+ .search_input.acitive{
+     opacity: 1;
+     visibility: visible;
+ }
+ input[type="text"] {
+     width: 80%;
+     border: 0;
+     padding: 10px 5px;
+     font-size: 16px;
+     color: red;
+     margin-top: 20%;
+     margin-left: 50px;
+ }
+ input::placeholder {
+     color: #444;
+     font-size: 18px;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+ .search_input form > i {
+     font-size: 20px;
+     position: absolute;
+     top: 29px;
+     color: #fff;
+     cursor: pointer;
+     transition: .3s;
+ }
+ .search_input form > i:hover {
+     color: #000;
+ }
