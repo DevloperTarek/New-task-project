@@ -25,13 +25,6 @@ $(window).on('scroll', function () {
 });
 
 // search bar
-$('#search').on('click',function(){
-	$('.search_input').addClass('active');
-})
-$('#search').on('click',function(){
-	$('.search_input').removeClass('.acive');
-})
-
 // mainSlider
 function mainSlider() {
 	var BasicSlider = $('.slider-active');
@@ -74,7 +67,7 @@ mainSlider();
 
 
 // owlCarousel
-$('.owl-carousel').owlCarousel({
+$('.happy-customer-active').owlCarousel({
     loop:true,
     margin:0,
 	items:1,

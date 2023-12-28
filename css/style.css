@@ -116,13 +116,15 @@ h3 {
 	line-height: 22px;
 }
 h4 {
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: bold;
-	color: #333;
+	color: #fff;
 	margin-bottom: 22px;
 }
 h5 {
 	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
 }
 h6 {
 	font-size: 16px;
@@ -218,6 +220,28 @@ label {
 .separator {
 	border-top: 1px solid #f2f2f2
 }
+/* section-title */
+.section-title h3 {
+     position: relative;
+ }
+ 
+ .section-title h3::after {
+     position: absolute;
+     top: auto;
+     left: 50%;
+     width: 60px;
+     height: 5px;
+     background: rgb(1, 62, 153);
+     content: '';
+     transform: translateX(-50%);
+     bottom: -30px;
+     /* margin-bottom: 12px; */
+ }
+ .section-title p{
+	margin: 0;
+	padding: 0;
+	margin-top: 60px;
+ }
 /* button style */
 
 .btn {

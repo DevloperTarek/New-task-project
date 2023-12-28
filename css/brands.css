@@ -1,0 +1,33 @@
+.single_item {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     opacity: .4;
+     transition: .3s;
+ }
+ .brands{
+     background-color: rgb(242,242,242);
+ }
+ /* .single_item img::before {
+     width: 100%;
+     height: 100%;
+     content: '';
+     position: absolute;
+     top: 0;
+     left: ba;
+     left: 0;
+     background: #000;
+     border-radius: 50%;
+     
+     opacity: .3;
+     transition: .2s;
+ } */ 
+
+ .owl-carousel .single_item img {
+     width: 80px;
+     height: 80px;
+ }
+ .single_item:hover {
+     opacity: 1;
+ }

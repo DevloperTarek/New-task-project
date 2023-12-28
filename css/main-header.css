@@ -87,3 +87,308 @@ section.main-header {
  .search_input form > i:hover {
      color: #000;
  }
+ #bar {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    display: none;
+}
+ /* responsive */
+ @media screen and (min-width:450px) and (max-width:995px) {
+    #bar{
+        display: flex;
+    }
+    .main-menu.acitve{
+        margin-left: 0;
+    }
+    .main-header{
+        padding: 20px 5%;
+    }
+    #bar {
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 400px;
+        height: 100vh;
+        background: black;
+        z-index: 9;
+        text-align: center;
+        top: 100%;
+        transition: .5s;
+        margin-left: -500%;
+        margin-top: 20px;
+    }
+    
+    .main-menu ul li {
+        display: block;
+    }
+    #bar {
+        font-size: 20px;
+        color: #fff;
+        z-index: 10;
+    }
+    
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 400px;
+        height: 100vh;
+        background: black;
+        z-index: 9;
+        text-align: center;
+        top: 100%;
+        margin-top: 20px;
+        left: 0;
+    }
+    
+    .main-menu ul li {
+        display: block;
+    }
+    
+    .overlay-bg {
+        position: absolute;
+        width: 100%;
+        height: 1100px;
+        background: #000;
+        opacity: .3;
+        top: 0;
+        left: -600%;
+        z-index: 8;
+    }
+    .overlay-bg.actived{
+        left: 0;
+    }
+    
+    /* .slider {
+        position: relative;
+    } */
+    /* service */
+    .service-area .service-item{
+        margin-bottom: 40px;
+    }
+    /* customer */
+    .happy-customer-active .customer-details p{
+        font-size: 13px;
+    }
+    .mashonary_product .mashonary_item{
+        margin-bottom: 40px;
+    }
+    /* understantd */
+    .content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .content h4 {
+        font-size: 20px;
+    }
+    /* slider */
+    .slider-content h2 {
+        font-size: 25px;
+    }
+    .slider-content p {
+        font-size: 12px;
+    }
+    .secondary-p {
+        color: #f2f2f2;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        margin-bottom: 12px;
+    }
+    .group-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-middle .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+ }
+ @media screen and (min-width:220px) and (max-width:767px) {
+    .happy-customer-active .customer-details p{
+        font-size: 12px;
+    }
+    #bar{
+        display: flex;
+    }
+    .main-menu.acitve{
+        margin-left: 0;
+    }
+    .main-header{
+        padding: 20px 5%;
+    }
+    #bar {
+        font-size: 20px;
+        color: #fff;
+    }
+    section.happy_customer h3{
+        font-size: 25px;
+    }
+    /* footer */
+    .percent_off h4 > span {
+        font-size: 45px;
+        padding: 0 14px;
+    }
+    .percent_off > p:last-child {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+    .footer {
+        background: rgb(1,62,153);
+        text-align: center;
+    }
+    .footer .footer_wized p > i {
+        display: none;
+    }
+    .footer .footer_bottom > p {
+        font-size: 11px;
+    }
+    .footer .footer_bottom {
+        padding: 15px 10px;
+    }
+    .footer .footer_wized > p {
+        padding-left: 11px;
+        padding-top: 0;
+        margin-bottom: 1px;
+    }
+    /* main-menu */
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 400px;
+        height: 100vh;
+        background: black;
+        z-index: 9;
+        text-align: center;
+        top: 100%;
+        transition: .5s;
+        margin-left: -500%;
+        margin-top: 20px;
+    }
+    
+    .main-menu ul li {
+        display: block;
+    }
+    #bar {
+        font-size: 20px;
+        color: #fff;
+        z-index: 10;
+    }
+    
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 400px;
+        height: 100vh;
+        background: black;
+        z-index: 9;
+        text-align: center;
+        top: 100%;
+        margin-top: 20px;
+        left: 0;
+    }
+    
+    .main-menu ul li {
+        display: block;
+    }
+    
+    .overlay-bg {
+        position: absolute;
+        width: 100%;
+        height: 1100px;
+        background: #000;
+        opacity: .3;
+        top: 0;
+        left: -600%;
+        z-index: 8;
+    }
+    .overlay-bg.actived{
+        left: 0;
+    }
+    
+    /* .slider {
+        position: relative;
+    } */
+    /* service */
+    .service-area .service-item{
+        margin-bottom: 40px;
+    }
+    /* customer */
+    .happy-customer-active .customer-details p{
+        font-size: 13px;
+    }
+    .mashonary_product .mashonary_item{
+        margin-bottom: 40px;
+    }
+    /* understantd */
+    .content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .content h4 {
+        font-size: 20px;
+    }
+    /* slider */
+    .slider-content h2 {
+        font-size: 25px;
+    }
+    .slider-content p {
+        font-size: 12px;
+    }
+    /* deafault css */
+    .secondary-p {
+        color: #f2f2f2;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        margin-bottom: 12px;
+    }
+    /* default css */
+    .group-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -30px;
+    }
+    .header-middle .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right-area {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+ }
+ .mainHeader.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    z-index: 999;
+    opacity: .8;
+ }
+ @media  screen and (max-width:448px) {
+    .header-middle .right-area{
+        display: none;
+    }
+    .logo{
+        margin-left: 50%;
+        display: block;
+        width: 100%;
+        transform: translateX(-50%);
+    }
+
+ }

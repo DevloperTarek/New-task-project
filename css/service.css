@@ -24,23 +24,6 @@
  .service-item:hover > i {
      color: #fff;
  }
- .service_title h3 {
-     position: relative;
- }
- 
- .service_title h3::after {
-     position: absolute;
-     top: auto;
-     left: 50%;
-     width: 60px;
-     height: 5px;
-     background: red;
-     content: '';
-     transform: translateX(-50%);
-     bottom: -20px;
-     /* margin-bottom: 12px; */
- }
- 
  .service_title p {
      /* margin-top: 25px; */
      padding-top: 30px;

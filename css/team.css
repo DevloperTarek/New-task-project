@@ -1,0 +1,32 @@
+.single-team img {
+     /* background-image: url('../images/blog/image-1.jpg'); */
+     cursor: pointer;
+     width: 100%;
+     height: 295px;
+ }
+ .team-info {
+     background: #013e99;
+     padding: 23px 60px;
+     text-align: center;
+ }
+ .team-info h5 > span {
+     color: rgb(204,204,204);
+     font-size: 15px;
+ }
+ .team_hover {
+     position: absolute;
+     height: 90%;
+     background: #000;
+     opacity: .4;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     top: 0;
+     /* left: 0; */
+     width: 100%;
+  }
+  .team_hover > i{
+     font-size: 20px;
+     color: #fff;
+     margin-left: 20px;
+  }
