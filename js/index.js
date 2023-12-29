@@ -34,7 +34,37 @@ $(document).ready(function(){
             horizontalOrder: true
           }
         })
+     //    counter js
+     $('.count').counterUp({
+          delay: 10,
+          time: 1500
+      });
      //    brands
+     $('.slider-active').owlCarousel({
+          loop:true,
+          autoplay:true,
+          autoplayTimeout:2000,
+          autoplayDuration:2000,
+          slideSpeed: 3000,
+          items:1,
+          navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+          nav:true,
+          dots:false,
+          responsive:{
+          0:{
+               items:1
+          },
+          767:{
+               items:1
+          },
+          992:{
+               items:1
+          },
+          1024:{
+               item:1
+          },
+          }
+     })
      $('.active_brands').owlCarousel({
           loop:true,
           autoplay:false,

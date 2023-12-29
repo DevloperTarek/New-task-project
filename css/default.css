@@ -666,7 +666,12 @@
 	background: #222;
 }
 .primary-bg {
-	background: #222;
+	background: rgb(1,62,153);
+}
+:root{
+	--primary-bg: rgb(1,62,153);
+	--secondary-bg:rgb(255,187,40);
+
 }
 /* Color */
 

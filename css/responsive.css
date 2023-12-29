@@ -140,3 +140,14 @@ header {
  }
  
 }
+@media screen and (min-width:320px) and (max-width:767px){
+    .latest_project .latest-item{
+        margin-bottom: 40px;
+    }
+    .team_items .single-team{
+        margin-bottom: 40px;
+    }
+    .counter .icon-item{
+        margin-bottom: 30px;
+    }
+}

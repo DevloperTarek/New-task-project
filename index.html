@@ -30,6 +30,8 @@
      <link rel="stylesheet" href="./css/slider.css">
      <!-- service -->
      <link rel="stylesheet" href="./css/service.css">
+     <!-- latest project -->
+     <link rel="stylesheet" href="./css/latest-project.css">
      <!-- happy-customer -->
      <link rel="stylesheet" href="./css/happy-customer.css">
      <!-- mashonary product -->
@@ -40,8 +42,12 @@
      <link rel="stylesheet" href="./css/team.css">
      <!-- footer -->
      <link rel="stylesheet" href="./css/footer.css">
+     <!-- responsive -->
+     <link rel="stylesheet" href="./css/responsive.css">
      <!-- brands -->
      <link rel="stylesheet" href="./css/brands.css">
+     <!-- counter -->
+     <link rel="stylesheet" href="./css/counter.css">
      <!-- custom css -->
      <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -87,7 +93,7 @@
                <div class="row d-flex align-items-center justify-between">
                     <div class="">
                          <i class="fa-solid fa-bars" id="bar"></i>
-                         <div class="overlay-bg"></div>
+                         <!-- <div class="overlay-bg"></div> -->
                          <div class="main-menu">
                               <ul>
                                    <li><a href="#">HOME</a></li>
@@ -116,14 +122,50 @@
      </section>
      <!-- header top end-->
      <!-- slider area -->
-     <section class="slider slider-bg-1 pt-100 pb-100">
-          <div class="overlay-bg"></div>
-          <div class="container">
-               <div class="row">
-                    <div class="col-xl-12">
-                         <div class="slider-content slider-table text-center">
-                              <div class="slider-tablecell">
-                                   <div class="white-circle"></div>
+     <section class="slider-active owl-carousel">
+          <div class="slider slider-bg-1 pt-80 pb-160" style="background-image: url('./images/hero/hero-1.jpg');">
+               <div class="overlay-bg"></div>
+               <div class="container">
+                    <div class="row">
+                         <div class="col-xl-12">
+                              <div class="slider-content text-center">
+                                   <div class="white-circle"><i class="fa-solid fa-phone"></i></div>
+                                   <h2>24 Hour Emergency Support!</h2>
+                                   <p class="secondary-p">Curabitur ut sem ut magna bibendum efficitur eget in nisi. Quisque fermentum<br> accumsan gravida eu odio purus vitae vehicula.</p>
+                                   <div class="group-btn">
+                                        <a href="#" class="btn">LEARN MORE</a>
+                                        <a href="#" class="btn">Get A QUOTE</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="slider slider-bg-1 pt-80 pb-160" style="background-image: url('./images/hero/hero-1.jpg');">
+               <div class="overlay-bg"></div>
+               <div class="container">
+                    <div class="row">
+                         <div class="col-xl-12">
+                              <div class="slider-content text-center">
+                                   <div class="white-circle"><i class="fa-solid fa-phone"></i></div>
+                                   <h2>24 Hour Emergency Support!</h2>
+                                   <p class="secondary-p">Curabitur ut sem ut magna bibendum efficitur eget in nisi. Quisque fermentum<br> accumsan gravida eu odio purus vitae vehicula.</p>
+                                   <div class="group-btn">
+                                        <a href="#" class="btn">LEARN MORE</a>
+                                        <a href="#" class="btn">Get A QUOTE</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="slider slider-bg-1 pt-80 pb-160" style="background-image: url('./images/hero/hero-1.jpg');">
+               <div class="overlay-bg"></div>
+               <div class="container">
+                    <div class="row">
+                         <div class="col-xl-12">
+                              <div class="slider-content text-center">
+                                   <div class="white-circle"><i class="fa-solid fa-phone"></i></div>
                                    <h2>24 Hour Emergency Support!</h2>
                                    <p class="secondary-p">Curabitur ut sem ut magna bibendum efficitur eget in nisi. Quisque fermentum<br> accumsan gravida eu odio purus vitae vehicula.</p>
                                    <div class="group-btn">
@@ -199,16 +241,19 @@
                          <div class="customer-details text-center">
                               <div class="white_cricle"></div>
                               <p>Duis cursus, purus a molestie tincidunt, elit felis rhoncus ipsum, in egestas diam arcu ut mauris. Quisque interdum nunc vel<br> magna cursus, eget tristique sem auctor.  Vivamus ipsum purus, molestie sit amet consectetur eget, semper in metus. Donec<br> imperdiet faucibus erat, sit amet egestas libero tincidunt vitae.</p>
+                              <span><i class="fa-solid fa-quote-left"></i></span>
                               <h5>Matthew Schneider <span>Art Director</span></h5>
                          </div>
                          <div class="customer-details text-center">
                               <div class="white_cricle"></div>
                               <p>Duis cursus, purus a molestie tincidunt, elit felis rhoncus ipsum, in egestas diam arcu ut mauris. Quisque interdum nunc vel<br> magna cursus, eget tristique sem auctor.  Vivamus ipsum purus, molestie sit amet consectetur eget, semper in metus. Donec<br> imperdiet faucibus erat, sit amet egestas libero tincidunt vitae.</p>
+                              <span><i class="fa-solid fa-quote-left"></i></span>
                               <h5>Matthew Schneider <span>Art Director</span></h5>
                          </div>
                          <div class="customer-details text-center">
                               <div class="white_cricle"></div>
                               <p>Duis cursus, purus a molestie tincidunt, elit felis rhoncus ipsum, in egestas diam arcu ut mauris. Quisque interdum nunc vel<br> magna cursus, eget tristique sem auctor.  Vivamus ipsum purus, molestie sit amet consectetur eget, semper in metus. Donec<br> imperdiet faucibus erat, sit amet egestas libero tincidunt vitae.</p>
+                              <span><i class="fa-solid fa-quote-left"></i></span>
                               <h5>Matthew Schneider <span>Art Director</span></h5>
                          </div>
                     </div>
@@ -232,7 +277,7 @@
               <div class="container-fluid">
                     <div class="row no-gutters">
                          <div class="col-xl-4 col-md-6 col-sm-12">
-                              <div class="mashonary_item">
+                              <div class="mashonary_item bg-1">
                                    <div class="hover_effect">
                                         <h4>Aliquam posuere mollis. <span>Repair House</span></h4>
                                         <div class="icons">
@@ -243,7 +288,7 @@
                               </div>
                          </div>
                          <div class="col-xl-4 col-md-6 col-sm-12">
-                              <div class="mashonary_item">
+                              <div class="mashonary_item bg-2">
                                    <div class="hover_effect">
                                         <h4>Aliquam posuere mollis. <span>Repair House</span></h4>
                                         <div class="icons">
@@ -254,7 +299,7 @@
                               </div>
                          </div>
                          <div class="col-xl-4 col-md-6 col-sm-12">
-                              <div class="mashonary_item">
+                              <div class="mashonary_item bg-3">
                                    <div class="hover_effect">
                                         <h4>Aliquam posuere mollis. <span>Repair House</span></h4>
                                         <div class="icons">
@@ -265,7 +310,7 @@
                               </div>
                          </div>
                          <div class="col-xl-4 col-md-6 col-sm-12">
-                              <div class="mashonary_item">
+                              <div class="mashonary_item bg-4">
                                    <div class="hover_effect">
                                         <h4>Aliquam posuere mollis. <span>Repair House</span></h4>
                                         <div class="icons">
@@ -276,7 +321,7 @@
                               </div>
                          </div>
                          <div class="col-xl-4 col-md-6 col-sm-12">
-                              <div class="mashonary_item">
+                              <div class="mashonary_item bg-5">
                                    <div class="hover_effect">
                                         <h4>Aliquam posuere mollis. <span>Repair House</span></h4>
                                         <div class="icons">
@@ -287,7 +332,7 @@
                               </div>
                          </div>
                          <div class="col-xl-4 col-md-6 col-sm-12">
-                              <div class="mashonary_item">
+                              <div class="mashonary_item bg-6">
                                    <div class="hover_effect">
                                         <h4>Aliquam posuere mollis. <span>Repair House</span></h4>
                                         <div class="icons">
@@ -320,7 +365,7 @@
      </section>
      <!-- understand end -->
      <!-- team area -->
-     <!-- <section class="team pt-70 pb-70">
+     <section class="team pt-70 pb-70">
           <div class="container">
                <div class="row">
                     <div class="col-xl-12">
@@ -330,42 +375,123 @@
                          </div>
                     </div>
                </div>
+               <div class="team_items mt-50">
+                    <div class="row">
+                         <div class="col-xl-3">
+                              <div class="single-team">
+                                   <div class="single-img">
+                                        <img src="./images/blog/image-1.jpg" alt="">
+                                   </div>
+                                   <div class="team-info">
+                                        <h5><a href="#">Robert Roberts </a><span>Manager</span></h5>
+                                   </div>
+                                   <div class="team_hover">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-googel-plus-g"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-behance"></i>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                   </div>
+                              </div>
+                         </div>    
+                         <div class="col-xl-3">
+                              <div class="single-team">
+                                   <div class="single-img">
+                                        <img src="./images/blog/image-1.jpg" alt="">
+                                   </div>
+                                   <div class="team-info">
+                                        <h5><a href="#">Robert Roberts </a><span>Manager</span></h5>
+                                   </div>
+                                   <div class="team_hover">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-googel-plus-g"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-behance"></i>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                   </div>
+                              </div>
+                         </div>    
+                         <div class="col-xl-3">
+                              <div class="single-team">
+                                   <div class="single-img">
+                                        <img src="./images/blog/image-1.jpg" alt="">
+                                   </div>
+                                   <div class="team-info">
+                                        <h5><a href="#">Robert Roberts </a><span>Manager</span></h5>
+                                   </div>
+                                   <div class="team_hover">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-googel-plus-g"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-behance"></i>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                   </div>
+                              </div>
+                         </div>    
+                         <div class="col-xl-3">
+                              <div class="single-team">
+                                   <div class="single-img">
+                                        <img src="./images/blog/image-1.jpg" alt="">
+                                   </div>
+                                   <div class="team-info">
+                                        <h5><a href="#">Robert Roberts </a><span>Manager</span></h5>
+                                   </div>
+                                   <div class="team_hover">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-googel-plus-g"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-behance"></i>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                   </div>
+                              </div>
+                         </div>    
+                    </div>
+               </div>
+          </div>
+     </section> 
+     <!-- team area end-->
+     <!-- counter -->
+     <section class="counter pt-100 pb-100 counter-bg">
+          <div class="container">
                <div class="row">
                     <div class="col-xl-3">
-                         <div class="single-team">
-                              <img src="./images/blog/image-1.jpg" alt="blog-1">
-                              <div class="team-info">
-                                   <h5><a href="#">Robert Roberts </a><span>Manager</span></h5>
-                              </div>
-                              <div class="team_hover">
-                                   <i class="fa-solid fa-facebook-f"></i>
-                                   <i class="fa-solid fa-googel-plus-g"></i>
-                                   <i class="fa-solid fa-twitter"></i>
-                                   <i class="fa-solid fa-behance"></i>
-                                   <i class="fa-solid fa-linkedin-in"></i>
-                              </div>
+                         <div class="icon-item">
+                              <!-- <img src="./img/counter-1.png" alt="counter-1"> -->
+                              <i class="fa-regular fa-heart"></i>
+                              <span><p class="count">12</p>+</span>
+                              <p>Years Of Experience</p>
                          </div>
                     </div>
                     <div class="col-xl-3">
-                         <div class="single-item bg-one">
-                              <div class="team_hover">
-                                   <i class="fa-solid fa-facebook-f"></i>
-                                   <i class="fa-solid fa-googel-plus-g"></i>
-                                   <i class="fa-solid fa-twitter"></i>
-                                   <i class="fa-solid fa-behance"></i>
-                                   <i class="fa-solid fa-linkedin-in"></i>
-                              </div>
+                         <div class="icon-item">
+                              <!-- <img src="./img/counter-1.png" alt="counter-1"> -->
+                              <i class="fa-regular fa-heart"></i>
+                              <span><p class="count">500</p>+</span>
+                              <p>Years Of Experience</p>
                          </div>
-                         <div class="team-info">
-                              <h5><a href="#">Robert Roberts </a><span>Manager</span></h5>
+                    </div>
+                    <div class="col-xl-3">
+                         <div class="icon-item">
+                              <!-- <img src="./img/counter-1.png" alt="counter-1"> -->
+                              <i class="fa-regular fa-heart"></i>
+                              <span><p class="count">1500</p>+</span>
+                              <p>Years Of Experience</p>
+                         </div>
+                    </div>
+                    <div class="col-xl-3">
+                         <div class="icon-item">
+                              <!-- <img src="./img/counter-1.png" alt="counter-1"> -->
+                              <i class="fa-regular fa-heart"></i>
+                              <span><p class="count">20</p>+</span>
+                              <p>Years Of Experience</p>
                          </div>
                     </div>
                </div>
           </div>
-     </section> -->
-     <!-- team area end-->
+     </section>
+     <!-- counter end-->
      <!-- latest project -->
-     <!-- <section class="latest-project pt-70 pb-70">
+     <section class="latest_project pt-70 pb-70">
           <div class="container">
                <div class="row">
                     <div class="col-xl-12">
@@ -374,40 +500,75 @@
                          </div>
                     </div>
                </div>
-               <div class="row">
-                    <div class="col-xl-4">
-                         <div class="single-item">
-                              <div class="hover_effect">
-                                   <div class="icons">
+               <div class="latest_project mt-50">
+                    <div class="row">
+                         <div class="col-xl-4">
+                              <div class="latest-item">
+                                   <div class="single-img">
+
+                                   </div>
+                                   <div class="project-info">
+                                        <h5><a href="#"></a>Phasellus vitae is risus the efficitu.</h5>
+                                        <p class="project-pera">Vivamus ipsum purus, molestie sit  consectetur eget, semper in metus imperdiet the faucibus aptent volutpat sociosqu.</p>
+                                        <div class="project-date">
+                                             <p><i class="fa-brands fa-watch"></i>15 Jun,2018</p>
+                                             <div class="last-item">
+                                                  <p><i class="fa-regular fa-heart"></i>12</p>
+                                                  <p><i class="fa-regular fa-heart"></i>02</p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="project_hover">
                                         <i class="fa-solid fa-magnifying-glass"></i>
-                                        <i class="fa-solid fa-circle-play"></i>
                                    </div>
                               </div>
-                         </div>
-                    </div>
-                    <div class="col-xl-4">
-                         <div class="single-item">
-                              <div class="hover_effect">
-                                   <div class="icons">
+                         </div>    
+                         <div class="col-xl-4">
+                              <div class="latest-item">
+                                   <div class="single-img">
+
+                                   </div>
+                                   <div class="project-info">
+                                        <h5><a href="#"></a>Phasellus vitae is risus the efficitu.</h5>
+                                        <p class="project-pera">Vivamus ipsum purus, molestie sit  consectetur eget, semper in metus imperdiet the faucibus aptent volutpat sociosqu.</p>
+                                        <div class="project-date">
+                                             <p><i class="fa-brands fa-watch"></i>15 Jun,2018</p>
+                                             <div class="last-item">
+                                                  <p><i class="fa-regular fa-heart"></i>12</p>
+                                                  <p><i class="fa-regular fa-heart"></i>02</p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="project_hover">
                                         <i class="fa-solid fa-magnifying-glass"></i>
-                                        <i class="fa-solid fa-circle-play"></i>
                                    </div>
                               </div>
-                         </div>
-                    </div>
-                    <div class="col-xl-4">
-                         <div class="single-item">
-                              <div class="hover_effect">
-                                   <div class="icons">
+                         </div>     
+                         <div class="col-xl-4">
+                              <div class="latest-item">
+                                   <div class="single-img">
+
+                                   </div>
+                                   <div class="project-info">
+                                        <h5><a href="#"></a>Phasellus vitae is risus the efficitu.</h5>
+                                        <p class="project-pera">Vivamus ipsum purus, molestie sit  consectetur eget, semper in metus imperdiet the faucibus aptent volutpat sociosqu.</p>
+                                        <div class="project-date">
+                                             <p><i class="fa-brands fa-watch"></i>15 Jun,2018</p>
+                                             <div class="last-item">
+                                                  <p><i class="fa-regular fa-heart"></i>12</p>
+                                                  <p><i class="fa-regular fa-heart"></i>02</p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="project_hover">
                                         <i class="fa-solid fa-magnifying-glass"></i>
-                                        <i class="fa-solid fa-circle-play"></i>
                                    </div>
                               </div>
-                         </div>
+                         </div>     
                     </div>
                </div>
           </div>
-     </section> -->
+     </section> 
      <!-- latest project end-->
      <!-- brands -->
      <section class="brands pt-50 pb-50">
@@ -524,6 +685,10 @@
      <!-- <script src="./js/main.js"></script> -->
      <!-- font awesome js -->
      <script src="./js/fontawesome.min.js"></script>
+     <!-- counter up -->
+     <script src="./js/jquery.counterup.min.js"></script>
+     <!-- waypoints -->
+     <script src="./js/waypoints.min.js"></script>
      <!-- proper js -->
      <script src="./js/popper.min.js"></script>
      <!-- magnific popup -->

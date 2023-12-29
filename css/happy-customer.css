@@ -3,10 +3,32 @@ section.happy_customer .section-title h3 {
      margin-bottom: 65px;
      position: relative;
  }
- 
+ section.happy_customer span > i {
+    position: absolute;
+    top: 38%;
+    left: 136px;
+    font-size: 30px;
+    transform: rotateX(180deg);
+}
  section.happy_customer {
-     background: #1950a2;
+     background-image: url('../images/blog-detail/image.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     z-index: 9;
      /* text-align: center; */
+ }
+ section.happy_customer::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-bg);
+    opacity: .8;
+    z-index: -1;
  }
  
  section.happy_customer p {
@@ -24,6 +46,13 @@ section.happy_customer .section-title h3 {
      color: #cccccc;
      margin-top: 15px;
      font-weight:400;
+ }
+ .customer-details .white_cricle{
+    background-image: url('../images/service-detail/image-1.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px var(--primary-bg);
  }
  
  .white_cricle {
@@ -55,7 +84,9 @@ section.happy_customer .section-title h3 {
      height: 0;
      background: 0;
  }
- 
+ .happy-customer-active.owl-carouse .owl-nav >  div.active {
+    color: #ddd;
+}
  .happy-customer-active.owl-carousel .owl-nav .owl-next {
      right: 40%;
      left: auto;
