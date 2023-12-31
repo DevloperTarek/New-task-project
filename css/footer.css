@@ -44,15 +44,14 @@
  }
  
  .footer_wized ul li a::before {
-     content: '>';
-     font-family: 'Font Awesome';
-     position: absolute;
-     color: rgb(252,182,25);
-     top: 0;
-     left: 0;
-     font-size: 17px;
-     transition: .3s;
- }
+    content: '\f105';
+    font-family: 'FontAwesome';
+    position: absolute;
+    color: rgb(252,182,25);
+    left: 0;
+    font-size: 17px;
+    transition: .3s;
+}
  
  .footer_wized ul li a:hover::before {
      padding-left: 5px;
@@ -79,11 +78,10 @@
      margin-bottom: 20px;
  }
  .other-list li a::before {
-     content: '>';
-     font-family: 'Font Awesome';
+     content: '\f105';
+     font-family: 'FontAwesome';
      position: absolute;
      color: rgb(252,182,25);
-     top: 0;
      left: 0;
      font-size: 17px;
      transition: .3s;
